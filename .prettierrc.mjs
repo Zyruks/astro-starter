@@ -7,7 +7,7 @@ const config = {
   singleQuote: true,
   trailingComma: 'es5',
   bracketSpacing: true,
-  endOfLine: 'crlf',
+  endOfLine: 'lf',
   plugins: ['prettier-plugin-astro', '@ianvs/prettier-plugin-sort-imports'],
   importOrder: [
     '<THIRD_PARTY_MODULES>',
