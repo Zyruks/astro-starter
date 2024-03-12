@@ -11,7 +11,7 @@
       "@data/*": ["data/*"],
       "@layouts/*": ["layouts/*"],
       "@pages/*": ["pages/*"],
-      "@styles/*": ["styles/*"],
+      "@styles/*": ["styles/*"]
     },
     "plugins": [
       {
