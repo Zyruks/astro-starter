@@ -1,0 +1,17 @@
+# Initially ignore everything in the project
+/*
+
+# Source code and content directories
+!/src
+!/public
+!/.github
+
+# Configuration files
+!astro.config.ts
+!.prettierrc.mjs
+!.eslintrc.cjs
+!.lintstagedrc
+!tsconfig.json
+
+# Documentation
+!README.md
