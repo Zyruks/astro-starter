@@ -1,4 +1,10 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
-  "unwantedRecommendations": []
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "esbenp.prettier-vscode",
+    "unifiedjs.vscode-mdx",
+    "zignd.html-css-class-completion",
+    "vivaxy.vscode-conventional-commits",
+    "bradlc.vscode-tailwindcss",
+  ]
 }
