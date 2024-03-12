@@ -19,7 +19,8 @@
     "preprettier": ".prettierignore",
     "preview": "astro preview",
     "start": "astro dev",
-    "type-check": "astro-check"
+    "type-check": "astro-check",
+    "prepare": "husky"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.7",
