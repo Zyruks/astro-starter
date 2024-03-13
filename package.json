@@ -44,6 +44,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sonarjs": "^0.24.0",
     "husky": "^9.0.11",
+		"lightningcss": "^1.24.0",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0",
