@@ -15,7 +15,11 @@ export default {
     'header-min-length': [2, 'always', 14],
     'header-max-length': [2, 'always', 72],
     'scope-case': [2, 'always', 'lower-case'],
-    'subject-case': [2, 'always', ['lower-case', 'sentence-case', 'start-case', 'pascal-case', 'upper-case']],
+    'subject-case': [
+      2,
+      'always',
+      ['lower-case', 'sentence-case', 'start-case', 'pascal-case', 'upper-case'],
+    ],
     'subject-full-stop': [2, 'never', '.'],
     'subject-min-length': [2, 'always', 0],
   },
