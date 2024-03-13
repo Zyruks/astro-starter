@@ -38,3 +38,8 @@ const config = {
 };
 
 export default config;
+
+/**
+ * @reference
+ * https://github.com/Zyruks/astro-starter/blob/main/docs/code-quality-tools/prettier.md
+ */

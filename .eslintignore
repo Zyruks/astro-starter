@@ -3,7 +3,8 @@
 
 .eslintrc.cjs
 commitlint.config.mjs
-tailwind.config.mjs
+lint-staged.config.mjs
+prettier.config.mjs
 astro.config.ts
 src/env.d.ts
 

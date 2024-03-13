@@ -30,3 +30,8 @@ module.exports = {
     },
   ],
 };
+
+/**
+ * @reference
+ * https://github.com/Zyruks/astro-starter/blob/main/docs/code-quality-tools/eslint.md
+ */
