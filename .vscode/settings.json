@@ -44,4 +44,9 @@
 	"prettier.documentSelectors": [
 		"**/*.astro"
 	],
+	"stylelint.validate": ["css", "scss", "astro"],
+  "stylelint.snippet": ["css", "less", "postcss", "scss", "astro"],
+	 "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
 }
