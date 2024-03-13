@@ -67,11 +67,7 @@ To make things super easy, we've set up `astro-starter` as a template repository
 3. Fill in the repository name and description as you would for any other repo.
 
 <details>
-<summary>
-
-#### Visual Representation
-
-</summary>
+<summary>Visual Representation</summary>
 
 ![Create from template GIF placeholder](./public/assets/images/readme/how-to-template.gif)
 
@@ -89,11 +85,7 @@ cd <your-repository-name>
 Replace <your-username> and <your-repository-name> with your GitHub username and the name of your newly created repository, respectively.
 
 <details>
-<summary>
-
-### 🚀 Alternative: Clone the Repository
-
-</summary>
+<summary>🚀 Alternative: Clone the Repository</summary>
 
 If you prefer to clone the repository directly, you can do so by running the following commands in your terminal:
 
@@ -146,6 +138,7 @@ Interested in the code quality tools we use to maintain our project? Check out t
 - [ESLint](docs/code-quality-tools/eslint.md): Ensures code quality and consistency by extending several recommended ESLint plugins, catering specifically to Astro projects as well as TypeScript and JSX accessibility guidelines.
 - [Prettier](docs/code-quality-tools/prettier.md): Configured to work alongside ESLint to enforce consistent code formatting, including rules for arrow functions, semi-colons, tab width, and more, with specific overrides for Astro files.
 - [CommitLint](docs/code-quality-tools/commitlint.md): Ensures that your commit messages meet the conventional commit format, crucial for automated changelog generation and maintaining a clear project history.
+- [Lint-staged](docs/code-quality-tools/lintstaged.md): Automates the process of running linters on staged files before committing, ensuring only code that meets quality standards is committed, helping maintain a clean and error-free codebase.
 - [browserslistrc](docs/code-quality-tools/browserslistrc.md): Defines the project's target browsers and environments for various frontend tools, ensuring consistent output across different environments.
 - [Validate Branch Name](docs/code-quality-tools/validate-branch-name.md): Ensures branch names follow predefined conventions, improving organizational clarity and streamlining workflow processes.
 
