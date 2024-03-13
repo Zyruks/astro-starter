@@ -1,12 +1,15 @@
 # Tooling configurations:
 # These entries are related to various tools and configurations that do not require linting
 
-.eslintrc.cjs
-commitlint.config.mjs
-lint-staged.config.mjs
-prettier.config.mjs
 astro.config.ts
+commitlint.config.mjs
+.eslintrc.cjs
+lint-staged.config.mjs
+postcss.config.mjs
+prettier.config.mjs
 src/env.d.ts
+stylelint.config.mjs
+
 
 # Dependency directories:
 # These directories contain third-party code or dependencies that should not be linted
