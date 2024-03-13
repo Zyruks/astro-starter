@@ -1,5 +1,5 @@
 {
-  "exclude": ["./dist/"],
+  "exclude": ["./dist/", "commitlint.config.mjs", "lint-staged.config.mjs", "prettier.config.mjs"],
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "baseUrl": "src",
