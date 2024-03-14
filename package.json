@@ -65,7 +65,6 @@
 		"stylelint-order": "^6.0.4",
 		"stylelint-rem-over-px": "^1.0.1",
 		"stylelint-scss": "^6.2.1",
-		"stylelint-selector-no-empty": "^1.0.9",
 		"stylelint-suitcss": "^5.0.0",
 		"stylelint-use-logical": "^2.1.2",
 		"stylelint-use-logical-spec": "^5.0.1",

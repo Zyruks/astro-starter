@@ -118,9 +118,6 @@ devDependencies:
   stylelint-scss:
     specifier: ^6.2.1
     version: 6.2.1(stylelint@16.2.1)
-  stylelint-selector-no-empty:
-    specifier: ^1.0.9
-    version: 1.0.9(stylelint@16.2.1)
   stylelint-suitcss:
     specifier: ^5.0.0
     version: 5.0.0
@@ -6166,14 +6163,6 @@ packages:
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.15
       postcss-value-parser: 4.2.0
-      stylelint: 16.2.1(typescript@5.4.2)
-    dev: true
-
-  /stylelint-selector-no-empty@1.0.9(stylelint@16.2.1):
-    resolution: {integrity: sha512-MmtOZNOj0dr/PFBxiSBZHtKq+rCTtdkU54E+AkzfHH0wegKKSihMax89PymBXGFboREHu8WaJL9xhh2ttPgkEQ==}
-    peerDependencies:
-      stylelint: ^14.9.1
-    dependencies:
       stylelint: 16.2.1(typescript@5.4.2)
     dev: true
 
