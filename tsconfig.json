@@ -1,5 +1,12 @@
 {
-  "exclude": ["./dist/", "commitlint.config.mjs", "lint-staged.config.mjs", "prettier.config.mjs"],
+  "exclude": [
+    "./dist/",
+    "commitlint.config.mjs",
+    "lint-staged.config.mjs",
+    "prettier.config.mjs",
+    "stylelint.config.mjs",
+    "validate-branch-name.config.cjs"
+  ],
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "baseUrl": "src",

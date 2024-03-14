@@ -29,23 +29,19 @@ const { title } = Astro.props;
       45deg,
       rgb(var(--accent)),
       rgb(var(--accent-light)) 30%,
-      white 60%
+      hsl(0deg 0% 100%) 60%
     );
   }
+
   html {
     font-family: system-ui, sans-serif;
-    background: #13151a;
-    background-size: 224px;
+
+    background: hsl(223deg 16% 9%);
+    background-size: 14rem;
   }
+
   code {
-    font-family:
-      Menlo,
-      Monaco,
-      Lucida Console,
-      Liberation Mono,
-      DejaVu Sans Mono,
-      Bitstream Vera Sans Mono,
-      Courier New,
-      monospace;
+    font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono',
+      'Bitstream Vera Sans Mono', 'Courier New', monospace;
   }
 </style>
