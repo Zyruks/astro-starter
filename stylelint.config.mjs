@@ -12,7 +12,6 @@ export default {
     'stylelint-use-logical-spec',
   ],
   rules: {
-    'no-empty-source': true,
     'rem-over-px/rem-over-px': true,
     'color-no-invalid-hex': true,
     'font-family-no-duplicate-names': true,

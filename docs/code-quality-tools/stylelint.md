@@ -19,7 +19,6 @@ Our project utilizes Stylelint to ensure coding standards and consistency across
   - `stylelint-config-rational-order-fix/plugin` for a rational order of properties. [More info](https://github.com/constverum/stylelint-config-rational-order).
   - `stylelint-color-format` to enforce a consistent color format. [More info](https://github.com/filipekiss/stylelint-color-format).
   - `stylelint-group-selectors` to enforce grouping of selectors. [More info](https://github.com/ssivanatarajan/stylelint-group-selectors).
-  - `stylelint-selector-no-empty` to disallow empty selectors. [More info](https://github.com/ssivanatarajan/stylelint-selector-no-empty).
   - `stylelint-suitcss` for SUITCSS naming conventions. [More info](https://github.com/suitcss/stylelint-suitcss).
   - `stylelint-use-logical-spec` for enforcing logical properties and values. [More info](https://github.com/csstools/stylelint-use-logical).
   - `stylelint-high-performance-animation` to warn about using low-performance animation and transition properties. [More info](https://github.com/kristerkari/stylelint-high-performance-animation).
@@ -113,7 +112,7 @@ Our project utilizes Stylelint to ensure coding standards and consistency across
 
 - **`declaration-block-single-line-max-declarations`**: Limits the number of declarations allowed in a single line block, enforcing a more readable format. This configuration limits to 1 declaration per line. [Learn more](https://stylelint.io/user-guide/rules/list/declaration-block-single-line-max-declarations).
 
-- **`selector-attribute-quotes`**: Requires quotes around the value of selector attributes for consistency and clarity. [Learn more](https://stylelint.io/user-guide/rules/list/selector-attribute-quotes).
+- **` 'no-empty-source': true,`**: Requires quotes around the value of selector attributes for consistency and clarity. [Learn more](https://stylelint.io/user-guide/rules/list/no-empty-source).
 
 - **`selector-class-pattern`**: Enforces a specific pattern for class selectors, ensuring naming consistency across the stylesheet. This configuration requires class names to consist of lowercase letters only. [Learn more](https://stylelint.io/user-guide/rules/list/selector-class-pattern).
 
@@ -180,8 +179,6 @@ Our project utilizes Stylelint to ensure coding standards and consistency across
 - **`color-format/format`**: This rule, coming from the `stylelint-color-format` plugin, allows for specifying the color format (e.g., `hsla`) that should be used in stylesheets, ensuring consistency in color declarations. [Learn more](https://github.com/filipekiss/stylelint-color-format).
 
 - **`plugin/stylelint-group-selectors`**: Facilitates grouping of CSS selectors that have identical rules, reducing repetition and promoting a DRY (Don't Repeat Yourself) approach to styling. [Learn more](https://github.com/ssivanatarajan/stylelint-group-selectors).
-
-- **`plugin/stylelint-selector-no-empty`**: Prevents the use of empty selectors, which can result from typos or incorrect refactoring, ensuring that every selector has associated styles. [Learn more](https://github.com/ssivanatarajan/stylelint-selector-no-empty).
 
 - **`plugin/no-low-performance-animation-properties`**: Warns against using properties in animations and transitions that could lead to poor performance, such as layout thrashing or expensive repaints. The configuration allows ignoring specific properties like `color` and `background-color`. [Learn more](https://github.com/kristerkari/stylelint-high-performance-animation).
 
